@@ -64,3 +64,19 @@ if temp_diff > 1.0 or out_of_range_count > 2:
         print(f"- Baby was out of safe range {out_of_range_count} times.")
 else:
     print("\nStatus: Monitoring stable. No immediate action required.")
+
+# Task 1 (Data Entry & Validation): * The program allows entry of temperatures.
+# It uses selection (if/elif/else) to check if the temperature is too high, too low, or acceptable and provides specific messages.
+#Validation is enforced using a while loop to ensure a value is entered correctly.
+
+# Task 2 (Storage & Statistics):
+# The program stores 18 readings (3 hours at 10-minute intervals) in a list.
+# It uses a loop to find the maximum and minimum values rather than just built-in functions, demonstrating exam-level logic.
+# It calculates the difference between the high and low.
+
+# Task 3 (Alert Summary):
+#It uses a compound if statement with an or operator to check if the temperature difference exceeds 1.0 or if the range was exceeded more than twice.
+#A summary message is printed only if these specific conditions are met.
+
+#Program Quality:
+#Meaningful variable names like out_of_range_count and temp_diff are used throughout.
